@@ -1,0 +1,4 @@
+[submodule "app"]
+	path = app
+	url = https://gitlab.brin.go.id/brinrockstar/dev-sso.lipi.go.id.git
+	branch = master

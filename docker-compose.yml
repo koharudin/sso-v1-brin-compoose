@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: local.Dockerfile
+    volumes:
+    #  - ./app:/var/www
+      - ./app:/var/www/html
+    ports:
+      - 81:80
